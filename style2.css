@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px 30px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(37, 37, 37);
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.regular-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px
+}
+
+.regular-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.form-div {
+    flex: 1;
+}
+
+.regular-textarea {
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px 40px;
+    width: 700px;
+    align-self: center;
+    width: 100%;
+    max-width: 686px
+}
+
+.lucky-button, .gsearch {
+    text-decoration: none;
+    background-color: #e9e9ed;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+.lucky-button:hover, .gsearch:hover {
+    background-color: #d0d0d7;
+    text-decoration: none;
+}
+
+.google {
+    text-align: center;
+    font-size: 110px;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.g-blue {
+    color: rgb(15, 114, 252);
+}
+
+.g-red {
+    color: rgb(254, 72, 0)
+}
+
+.g-yellow {
+    color: rgb(255, 200, 0)
+}
+
+.g-green {
+    color: green
+}
+
+
+footer {
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: rgb(41, 41, 41);
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    gap: 20px;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
