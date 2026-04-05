@@ -164,5 +164,15 @@ hr {
 
 .adv-search-btn {
     margin-top: 80px;
+    max-width: 190px;
+    min-height: 40px;
+    background-color: #1893ff;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    border: 0;
+}
 
+.adv-search-btn:hover {
+    background-color: #057eff;
 }
