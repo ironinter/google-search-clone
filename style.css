@@ -135,3 +135,34 @@ footer a:hover {
     }
 
 }
+
+.adv-title {
+    color: red;
+    font-size: 25px;
+    padding: 30px 50px;
+}
+
+hr {
+    border: 1px solid #000;
+    margin: 20px 0;
+}
+
+.adv-form {
+    display: flex;
+    flex-direction: column;
+    color: rgb(51, 51, 51);
+    margin: 20px 40px;
+}
+
+.adv-inputs {
+    margin: 10px;
+    max-width: 600px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adv-search-btn {
+    margin-top: 80px;
+
+}

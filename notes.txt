@@ -1,0 +1,6 @@
+all these words: Type the important words (tri-colour rat terrier)
+this exact word or phrase: Put exact words in quotes ("rat terrier")
+any of these words: Type OR between all the words you want (miniature OR standard)
+none of these words: Put a minus sign just before words that you don't want (-rodent, -"Jack Russell")
+
+https://www.google.com/search?as_q=tri-color+rat+terrier&as_epq=rat+terrier&as_oq=miniature+OR+standard&as_eq=-rodent%2C+-%22Jack+Russell%22
